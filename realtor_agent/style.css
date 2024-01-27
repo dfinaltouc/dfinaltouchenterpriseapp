@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100;1,200&display=swap');
+
+* {
+    box-sizing: border-box;
+        margin: 0px;
+            padding: 0px;
+            }
+
+            body {
+                font-family: 'Poppins', sans-serif;
+                }
+
+                #wrapper {
+                    min-height: 100vh;
+                        margin: 10px;
+                            /* max-width: 1440px; */
+                            }
+
+                            ul {
+                                list-style: none;
+                                }
+
+                                ul>li>a {
+                                    text-decoration: none;
+                                    }
+
+                                    #columns {
+                                        background-color: #f8f8f8;
+                                            gap: 20px;
+                                                display: flex;
+                                                    justify-content: center;
+                                                        align-items: cen;
+                                                        }
+
+                                                        .item {
+
+                                                            background: #048a40;
+                                                                padding: 20px;
+                                                                    margin: 10px;
+                                                                        display: flex;
+                                                                            justify-content: center;
+                                                                                align-items: center;
+                                                                                    color: #fff;
+                                                                                        line-height: 1.5rem;
+                                                                                        }
+
+                                                                                        nav{
+                                                                                            display: flex;
+                                                                                                justify-content: space-between;
+                                                                                                    height: 65px;
+                                                                                                    }
+
+                                                                                                    nav ul {
+                                                                                                        display: flex;
+                                                                                                            height: 100%;
+                                                                                                            }
+                                                                                                            nav ul li{
+                                                                                                                margin-right: 10px;
+                                                                                                                    background: #048a40;
+                                                                                                                        justify-content: center;
+                                                                                                                            align-items: center;
+                                                                                                                            }
+
+                                                                                                                            nav ul li a{
+                                                                                                                                color: #fff;
+                                                                                                                                    padding: 10px 5px;
+                                                                                                                                    }
